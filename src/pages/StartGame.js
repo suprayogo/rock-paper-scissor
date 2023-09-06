@@ -4,10 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import "../style/animation.css";
 import Navbar from "../components/navbar";
-import { useAudioContext } from "./AudioContext.js";
+
 
 function StartGame() {
-  const { audioPlaying, toggleAudio } = useAudioContext();
+
 
   return (
     <>
@@ -28,7 +28,7 @@ function StartGame() {
               onClick={toggleAudio}
               className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded w-full"
             >
-              Let's Go to Start
+           Go to Start
             </button>
           </Link>
         </div>
