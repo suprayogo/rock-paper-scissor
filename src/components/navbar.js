@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
+import { faVolumeMute, faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVolumeUp, faVolumeMute } from "@fortawesome/free-solid-svg-icons";
-import { useMusicContext } from "../pages/MusicContext";
+import { useMusicContext } from "../utils/MusicContext";
 
 function Navbar() {
   const { isMuted, toggleMute } = useMusicContext();

@@ -1,10 +1,9 @@
 
-import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import "../style/animation.css";
+import Link from "next/link";
 import Navbar from "../components/navbar";
-import { useAudioContext } from "./AudioContext.js";
+import "../style/animation.css";
+import { useAudioContext } from "../utils/AudioContext.js";
 
 function Index() {
   const { audioPlaying, toggleAudio } = useAudioContext();

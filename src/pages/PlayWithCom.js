@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Navbar from "../components/navbar";
-import { useAudioContext } from "./AudioContext.js";
+import { useAudioContext } from "../utils/AudioContext.js";
 
 function PlayWithCom() {
   const { audioPlaying, toggleAudio } = useAudioContext();

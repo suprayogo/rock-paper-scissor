@@ -1,7 +1,6 @@
-import React from 'react';
-import { AudioProvider } from './AudioContext.js'
-import { MusicProvider } from './MusicContext.js';
 import 'tailwindcss/tailwind.css';
+import { AudioProvider } from '../utils/AudioContext.js';
+import { MusicProvider } from '../utils/MusicContext.js';
 
 function MyApp({ Component, pageProps }) {
   return (
