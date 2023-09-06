@@ -10,6 +10,10 @@ module.exports = {
           source: '/start-game',
           destination: '/StartGame',
         },
+        {
+          source: '/play-with-com',
+          destination: '/PlayWithCom',
+        },
       ];
     }
 }

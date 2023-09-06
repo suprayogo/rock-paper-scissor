@@ -54,9 +54,38 @@
     }
   }
   
-  /* Tambahkan kelas CSS untuk animasi latar belakang */
+
   .animated-background {
-    background-size: 200% 200%; /* Atur background-size yang lebih besar dari lebar layar */
-    animation: backgroundAnimation 100s linear infinite; /* Sesuaikan durasi sesuai kebutuhan Anda */
+    background-size: 200% 200%; 
+    animation: backgroundAnimation 70s linear infinite; 
   }
   
+
+
+
+
+@keyframes hacker-flicker {
+  0%, 100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  25% {
+    opacity: 0.7;
+    transform: translateX(-5px);
+  }
+  75% {
+    opacity: 0.7;
+    transform: translateX(5px);
+  }
+}
+
+.hacker-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: hacker-flicker 2s infinite;
+  font-family: monospace; 
+}
+
+
+
