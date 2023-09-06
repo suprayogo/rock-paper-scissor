@@ -1,0 +1,62 @@
+/* animation.css */
+@keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 0%;
+      background-color: #5c1d1d;
+    }
+    8.33% {
+      background-position: 100% 0%;
+      background-color: #0516b3;
+    }
+    16.67% {
+      background-position: 0% 100%;
+      background-color: #500ba0;
+    }
+    25% {
+      background-position: 100% 100%;
+      background-color: #5c1d1d;
+    }
+    33.33% {
+      background-position: 0% 50%;
+      background-color: #0516b3;
+    }
+    41.67% {
+      background-position: 100% 50%;
+      background-color: #500ba0;
+    }
+    50% {
+      background-position: 0% 0%;
+      background-color: #5c1d1d;
+    }
+    58.33% {
+      background-position: 100% 0%;
+      background-color: #0516b3;
+    }
+    66.67% {
+      background-position: 0% 100%;
+      background-color: #500ba0;
+    }
+    75% {
+      background-position: 100% 100%;
+      background-color: #5c1d1d;
+    }
+    83.33% {
+      background-position: 0% 50%;
+      background-color: #0516b3;
+    }
+    91.67% {
+      background-position: 100% 50%;
+      background-color: #500ba0;
+    }
+    100% {
+      background-position: 0% 0%;
+      background-color: #5c1d1d;
+    }
+  }
+  
+  /* Tambahkan kelas CSS untuk animasi latar belakang */
+  .animated-background {
+    background-size: 200% 200%; /* Atur background-size yang lebih besar dari lebar layar */
+    animation: backgroundAnimation 100s linear infinite; /* Sesuaikan durasi sesuai kebutuhan Anda */
+  }
+  
