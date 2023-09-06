@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "../style/animation.css";
 import Navbar from "../components/navbar";
 import { useAudioContext } from "../utils/AudioContext.js";
 
@@ -12,9 +13,9 @@ function PlayWithCom() {
   };
 
   const startGame = () => {
-    // Logika permainan sederhana (ganti dengan logika permainan yang sesungguhnya)
+    
     console.log(`Memulai permainan dengan ${rounds} putaran.`);
-    setStart(true); // Menandai bahwa permainan telah dimulai
+    setStart(true); 
   };
 
   const handleStartGameClick = () => {
