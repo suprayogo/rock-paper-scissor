@@ -21,7 +21,7 @@ function Index() {
 
           <Link href="/start-game">
             <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded w-full">
-              Let's Go to Start
+              Let&apos;s Go to Start
             </button>
           </Link>
         </div>
