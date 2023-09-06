@@ -1,4 +1,4 @@
-// Index.js
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import "../style/animation.css";
 import Navbar from "../components/navbar";
 import { useAudioContext } from "./AudioContext.js";
 
-function Index() {
+function StartGame() {
   const { audioPlaying, toggleAudio } = useAudioContext();
 
   return (
@@ -37,4 +37,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default StartGame;
