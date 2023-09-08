@@ -14,6 +14,10 @@ module.exports = {
           source: '/play-with-com',
           destination: '/PlayWithCom',
         },
+        {
+          source: '/',
+          destination: '/index',
+        },
       ];
     }
 }
